@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, Linkedin, Github, Facebook, Instagram } from "lucide-react";
 
@@ -43,7 +42,7 @@ const contactInfo = [
 
 const Contact = () => {
   return (
-    <div className="relative w-screen h-screen flex items-center justify-center bg-neutral-950 text-gray-200 overflow-hidden">
+    <div className="relative w-screen h-screen overflow-y-auto flex flex-col items-center justify-start bg-neutral-950 text-gray-200 px-6 py-12 space-y-12">
       {/* Subtle background circle */}
       <div className="absolute w-[500px] h-[500px] bg-blue-900/10 rounded-full blur-3xl -bottom-20 -right-20 -z-10" />
 
